@@ -450,9 +450,9 @@ function registerVideoJsMarkersPlugin(options) {
   }
 
   // setup the plugin after we loaded video's meta data
-  player.on("loadedmetadata", function() {
-    initialize();
-  });
+  // player.on("loadedmetadata", function() {
+  //   initialize();
+  // });
 
   // exposed plugin API
   player.markers = {

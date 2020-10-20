@@ -11,8 +11,8 @@
     global.videojsMarkersPlugin = mod.exports;
   }
 })(this, function (_video) {
-  /*! videojs-markers-plugin - v1.0.2 - 2019-08-23
-  * Copyright (c) 2019 ; Licensed  */
+  /*! videojs-markers-plugin - v1.0.2 - 2020-10-20
+  * Copyright (c) 2020 ; Licensed  */
   'use strict';
 
   var _video2 = _interopRequireDefault(_video);
@@ -448,9 +448,9 @@
     }
 
     // setup the plugin after we loaded video's meta data
-    player.on("loadedmetadata", function () {
-      initialize();
-    });
+    // player.on("loadedmetadata", function() {
+    //   initialize();
+    // });
 
     // exposed plugin API
     player.markers = {
